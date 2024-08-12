@@ -1,5 +1,5 @@
 """GitHub Classroom autograding script."""
-import pytest
+
 import pickle
 
 import pandas as pd
@@ -47,5 +47,4 @@ def test_accuracy():
 
     assert accuracy > 0.9545
 
-if __name__ == "__main__":
-    test_accuracy()
+test_accuracy()
